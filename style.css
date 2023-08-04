@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B3C7E3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ic-container {
+    position: relative;
+    width: 498px;
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    gap: 24px;
+    padding: 60px 55px;
+}
+
+.dis-tasarim {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    border-radius: 49px;
+    width: 618px;
+    height: 731px;
+    background-color: #E9E8FF;
+    z-index: -1;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upper-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+.price-container h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.price-container>span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.buy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.buy-container a {
+    font-size: 18px;
+    color: #000;
+    padding: 24px 24px;
+    background: rgb(95, 244, 137);
+    background: linear-gradient(135deg, rgba(95, 244, 137, 1) 0%, rgba(121, 244, 244, 1) 100%);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.buy-container>span {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.upper-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.upper-bottom span {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/* DOWNER */
+.downer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.downer-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    background-color: #F3F5FF;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.downer h4 {
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.buttons a {
+    font-size: 18px;
+    color: #000;
+}
+
+.search-btn {
+    width: 222px;
+    padding: 16px;
+    border: 1px solid #B3C7E3;
+    border-radius: 8px;
+}
+
+.search-btn span i {
+    margin-right: 8px;
+}
+
+.check-btn {
+    width: 126px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.downer-down {
+    font-size: 18px;
+    background-color: #9CC4FF;
+    text-align: center;
+    padding: 24px;
+    border-radius: 8px;
+}
